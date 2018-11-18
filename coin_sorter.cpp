@@ -29,11 +29,11 @@ const double COIN_ARRAY[NUM_OF_COINS][4] =
 // being added to the wrappers, so that we just address the array
 // element here and it will give back which coin we are using
 const string COIN_NAME[NUM_OF_COINS] = {
-		"nickel",
-		"dime",
-		"quarter",
-		"loonie",
-		"toonie"
+	"nickel",
+	"dime",
+	"quarter",
+	"loonie",
+	"toonie"
 };
 // maximum number of coins in a roll, order depends on coin defines above
 const int MAX_ROLL[NUM_OF_COINS] = { 40, 50, 40, 25, 25 };
